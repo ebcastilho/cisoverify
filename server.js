@@ -216,6 +216,6 @@ app.get("/connections", (req, res) => {
 
 
 /* START */
-aapp.listen(PORT, () => {
+app.listen(PORT, () => {
   console.log("Servidor rodando na porta " + PORT);
 });
